@@ -1,107 +1,47 @@
+package Mis Clases;
 
 import java.util.*;
 
 /**
  * 
  */
-public class Pedido {
+public class Proveedor {
 
     /**
      * Default constructor
      */
-    public Pedido() {
+    public Proveedor() {
     }
 
     /**
      * 
      */
-    public int idPedido;
+    public int idProveedor;
 
     /**
      * 
      */
-    public int PFecha;
+    public String PvNombre;
 
     /**
      * 
      */
-    public String Estado;
+    public String PvDireccion;
 
     /**
      * 
      */
-    public void Attribute1;
+    public int PvNumero;
 
     /**
      * 
      */
-    public void agregarProductos() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void eliminarProductos() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void calcularTotal() {
-        // TODO implement here
-    }
+    public String PvCorreo;
 
     /**
      * @return
      */
-    public int getIdPedido() {
-        // TODO implement here
-        return 0;
-    }
-
-    /**
-     * @param value
-     */
-    public void setIdPedido(int value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public int getPFecha() {
-        // TODO implement here
-        return 0;
-    }
-
-    /**
-     * @param value
-     */
-    public void setPFecha(int value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public String getEstado() {
-        // TODO implement here
-        return "";
-    }
-
-    /**
-     * @param value
-     */
-    public void setEstado(String value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public void getAttribute1() {
+    public void getIdProveedor() {
         // TODO implement here
         return null;
     }
@@ -109,7 +49,67 @@ public class Pedido {
     /**
      * @param value
      */
-    public void setAttribute1(void value) {
+    public void setIdProveedor(void value) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void getPvNombre() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param value
+     */
+    public void setPvNombre(void value) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void getPvDireccion() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param value
+     */
+    public void setPvDireccion(void value) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void getPvCorreo() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param value
+     */
+    public void setPvCorreo(void value) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public void getPvNumero() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param value
+     */
+    public void setPvNumero(void value) {
         // TODO implement here
     }
 

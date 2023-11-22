@@ -1,3 +1,4 @@
+package Mis Clases;
 
 import java.util.*;
 
@@ -163,6 +164,21 @@ public class Cliente {
      * @param value
      */
     public void setTelefono(int value) {
+        // TODO implement here
+    }
+
+    /**
+     * @return
+     */
+    public int {id } getIdCliente() {
+        // TODO implement here
+        return null;
+    }
+
+    /**
+     * @param value
+     */
+    public void setIdCliente(int {id } value) {
         // TODO implement here
     }
 

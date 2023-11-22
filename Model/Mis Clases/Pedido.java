@@ -1,53 +1,63 @@
+package Mis Clases;
 
 import java.util.*;
 
 /**
  * 
  */
-public class Producto {
+public class Pedido {
 
     /**
      * Default constructor
      */
-    public Producto() {
+    public Pedido() {
     }
 
     /**
      * 
      */
-    public int idProducto;
+    public int idPedido;
 
     /**
      * 
      */
-    public void tipo;
+    public int PFecha;
 
     /**
      * 
      */
-    public String PNombre;
+    public String Estado;
 
     /**
      * 
      */
-    public int Stock;
+    public void Attribute1;
 
     /**
      * 
      */
-    public int Precio;
+    public void agregarProductos() {
+        // TODO implement here
+    }
 
     /**
      * 
      */
-    public void Operation1() {
+    public void eliminarProductos() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void calcularTotal() {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public int getIdProducto() {
+    public int getIdPedido() {
         // TODO implement here
         return 0;
     }
@@ -55,29 +65,29 @@ public class Producto {
     /**
      * @param value
      */
-    public void setIdProducto(int value) {
+    public void setIdPedido(int value) {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public void getTipo() {
+    public int getPFecha() {
         // TODO implement here
-        return null;
+        return 0;
     }
 
     /**
      * @param value
      */
-    public void setTipo(void value) {
+    public void setPFecha(int value) {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public String getPNombre() {
+    public String getEstado() {
         // TODO implement here
         return "";
     }
@@ -85,37 +95,22 @@ public class Producto {
     /**
      * @param value
      */
-    public void setPNombre(String value) {
+    public void setEstado(String value) {
         // TODO implement here
     }
 
     /**
      * @return
      */
-    public int getStock() {
+    public void getAttribute1() {
         // TODO implement here
-        return 0;
+        return null;
     }
 
     /**
      * @param value
      */
-    public void setStock(int value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public int getPrecio() {
-        // TODO implement here
-        return 0;
-    }
-
-    /**
-     * @param value
-     */
-    public void setPrecio(int value) {
+    public void setAttribute1(void value) {
         // TODO implement here
     }
 
